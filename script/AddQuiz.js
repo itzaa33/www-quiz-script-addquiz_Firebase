@@ -12,12 +12,12 @@ require('firebase/firestore');
 require('firebase/storage');
 
     firebase.initializeApp({
-        apiKey: "AIzaSyC7EHOSg",
-        authDomain: "mazsa-quiz.firebaseapp.com",
-        databaseURL: "https://quiz.firebaseio.com",
+        apiKey: "",
+        authDomain: "",
+        databaseURL: "",
         projectId: "quiz",
         storageBucket: "quiz.appspot.com",
-        messagingSenderId: "565623250"
+        messagingSenderId: ""
     });
 
     const firestore = firebase.firestore();
